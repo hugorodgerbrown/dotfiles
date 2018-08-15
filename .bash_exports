@@ -1,0 +1,5 @@
+echo Setting up environment variables
+export EDITOR="sublime -w"
+export HISTCONTROL=ignoreboth:erasedups
+export WORKON_HOME=$HOME/.virtualenvs
+export PYENV_VIRTUALENV_DISABLE_PROMPT=1
