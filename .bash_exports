@@ -1,3 +1,5 @@
-echo Setting up environment variables
+echo "Setting up environment variables"
 export EDITOR="sublime -w"
 export HISTCONTROL=ignoreboth:erasedups
+export PYENV_VIRTUALENV_DISABLE_PROMPT=1
+export PIPENV_VENV_IN_PROJECT=1

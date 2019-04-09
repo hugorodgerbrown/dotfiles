@@ -1,10 +1,3 @@
-source $HOME/.bash_aliases
-source $HOME/.bash_prompt
-source $HOME/.bash_exports
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-bind '"\e[A": history-search-backward'
-bind '"\e[B": history-search-forward'
+if [ -f ~/.bashrc ]; then
+   source ~/.bashrc
+fi
