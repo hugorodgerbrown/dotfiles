@@ -8,3 +8,5 @@ alias heroky="heroku run python manage.py"
 alias run-sql="docker-compose run --rm --no-deps postgres psql -h postgres -U postgres -c "
 # remove all <none> (unlabelled) docker images
 alias docker-rmi="docker images | grep '<none>' | awk '{print $4}' | xargs docker rmi"
+# run Django tests
+alias run-tests="docker-compose run --rm --entrypoint='pytest --ds=yunojuno.settings.test' django"
