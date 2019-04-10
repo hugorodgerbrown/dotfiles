@@ -19,4 +19,4 @@ source $HOME/.yvm/yvm.sh
 
 echo 'Initialising pyenv'
 eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+# eval "$(pyenv virtualenv-init -)"
